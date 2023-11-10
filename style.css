@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Press Start 2P", sans-serif;
+  color: #fff;
+  background-color: #6698ca;
+}
+.container {
+  max-width: 80rem;
+  margin: 3rem auto;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: #0054a8;
+  border: 5px solid #ffff00;
+
+  display: flex;
+  flex-direction: column;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.display-container {
+  margin-top: 6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.message {
+  font-size: 1.4rem;
+}
+
+.input {
+  padding: 0.5rem;
+  /* after setting font-family to inherit. the input box became biger. why? */
+  font-family: inherit;
+  border: 2px solid #000;
+}
+
+.display {
+  color: #000;
+  width: 50rem;
+  height: 3rem;
+  background-color: #fff;
+  font-size: 1.4rem;
+  border: 2px solid #000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-container {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.btn {
+  padding: 0.5rem;
+  font-family: inherit;
+  border: none;
+  color: #000;
+  background: #ffff00;
+  border: 2px solid #000;
+
+  flex-grow: 1;
+}
+
+.btn:hover {
+  color: #ffff00;
+  background: #000;
+  border: 2px solid #ffff00;
+}
